@@ -1,26 +1,14 @@
 package com.vTiger.testcases;
 
-import java.util.concurrent.TimeUnit;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
-import org.testng.Assert;
-import org.testng.Reporter;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 
 import com.vtiger.genericutils.BaseClass;
 import com.vtiger.genericutils.ExcelUtility;
-import com.vtiger.genericutils.JavaUtility;
-import com.vtiger.genericutils.PropertyFileUtility;
-import com.vtiger.genericutils.WebDriverUtility;
 import com.vtiger.objectRepository.CreateOrganisation;
 import com.vtiger.objectRepository.HomePage;
 import com.vtiger.objectRepository.OrganisationInfo;
 import com.vtiger.objectRepository.OrganisationPage;
+import com.vtiger.genericutils.JavaUtility;
 
 public class CreateOrganisationTest extends BaseClass{
 

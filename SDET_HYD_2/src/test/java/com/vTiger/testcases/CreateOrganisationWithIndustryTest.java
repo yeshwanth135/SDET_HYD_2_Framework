@@ -19,7 +19,7 @@ import com.vtiger.objectRepository.CreateOrganisation;
 import com.vtiger.objectRepository.HomePage;
 import com.vtiger.objectRepository.OrganisationPage;
 
-public class CreateOrganisationWithIndustry extends BaseClass{
+public class CreateOrganisationWithIndustryTest extends BaseClass{
 
 	@Test
 	public void createOrganisationWithIndustry() throws Throwable
